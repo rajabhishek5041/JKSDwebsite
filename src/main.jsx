@@ -22,6 +22,11 @@ import Python from './pages/Courses/Python.jsx'
 import Robotics from './pages/Courses/Robotics.jsx'
 import TermAndConditions from './pages/Policies/TermAndConditions.jsx'
 import PrivacyPolicy from './pages/Policies/PrivacyPolicy.jsx'
+import AllInternship from './pages/Internship/AllInternship.jsx'
+import SummerTrInfo from './pages/Internship/SummerTrInfo.jsx'
+import WinterTrInfo from './pages/Internship/WinterTrInfo.jsx'
+import CorporateTrInfo from './pages/Internship/CorporateTrInfo.jsx'
+import ProjectTrInfo from './pages/Internship/ProjectTrInfo.jsx'
 
 
 
@@ -58,6 +63,11 @@ const router = createBrowserRouter(
       <Route path='iot' element={<Iot/>} />
       <Route path='python' element={<Python/>} />
       <Route path='robotics' element={<Robotics/>} />
+      <Route path='allinternship' element={<AllInternship/>} />
+      <Route path='summerTrInfo' element={<SummerTrInfo/>} />
+      <Route path='winterTrInfo' element={<WinterTrInfo/>} />
+      <Route path='corporateTrInfo' element={<CorporateTrInfo/>} />
+      <Route path='projectTrInfo' element={<ProjectTrInfo/>} />
 
       <Route path='404' element={<PageNotFound />} />
       <Route path='*' element={<Navigate to="/404" replace />} />
